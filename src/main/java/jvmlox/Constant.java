@@ -1,0 +1,5 @@
+package jvmlox;
+
+interface Constant {
+
+}
