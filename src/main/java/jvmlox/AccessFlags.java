@@ -1,6 +1,7 @@
 package jvmlox;
 
 class AccessFlags {
+    public static final short NONE = 0x0000;
     public static final short PUBLIC = 0x0001;
     public static final short PRIVATE = 0x0002;
     public static final short PROTECTED = 0x0004;

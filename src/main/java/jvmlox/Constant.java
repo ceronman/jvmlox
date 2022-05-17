@@ -1,5 +1,5 @@
 package jvmlox;
 
-interface Constant {
+interface Constant extends Writer {
 
 }

@@ -1,4 +1,5 @@
 package jvmlox;
 
-public interface Attribute {
+sealed public interface Attribute extends Writer
+        permits CodeAttribute, SourceFileAttribute {
 }
